@@ -30,6 +30,7 @@ body {
   font-size: 22px;
   color: #128c76;
   padding: 10px 10px 10px 10px;
+  /* border: solid red; */
 }
 
 .nav>.nav-btn {
@@ -108,7 +109,7 @@ body {
   }
 
   .nav>#nav-check:checked~.nav-links {
-    height: calc(100vh - 50px);
+    height: calc(50vh - 50px);
     overflow-y: auto;
   }
 }
@@ -185,8 +186,8 @@ body {
 
 .get:hover {
   cursor: pointer;
-  background: rgb(189, 180, 170);
-  font-size: 17px;
+  background: #22b69b;
+  font-size: 11px;
 }
 
 .button {
@@ -198,10 +199,10 @@ body {
   color: white;
 }
 
-/* .button:hover{
+.button:hover{
      cursor: pointer;
-     background: #8af3e0;
-     font-size: 17px; */
+     background: #36c9ae;
+     font-size: 12px; 
 }
 
 .main-grid {
@@ -271,6 +272,7 @@ body {
 .capital {
   margin-bottom: 0px;
   margin-top: 10px;
+  /* margin-left: 80px; */
 }
 
 .grid-item-1>h2 {
@@ -278,16 +280,19 @@ body {
   font-size: 24px;
   line-height: 32px;
   color: #333333;
+  padding-left: 20px;
 }
 
 .grid-item-1>h3 {
   font-weight: 400;
   font-size: 16px;
   color: #999999;
+  padding-left: 20px;
 }
 
 .grid-item-1>p {
   height: 48px;
+  padding-left: 10px;
 }
 
 .money {
@@ -368,6 +373,16 @@ body {
   cursor: pointer;
 }
 
+.view-button:hover{
+  
+ 
+  cursor: pointer;
+  background: rgb(233, 132, 149);
+  font-size: 17px;
+}
+
+
+
 .view {
   padding: 24px 40px 22px;
   gap: 4px;
@@ -425,7 +440,7 @@ body {
 
 .second {
   background-image: url(./assets/star.png);
-  height: 90vh;
+  height: 110vh;
   background-repeat: no-repeat;
   background-position: right;
   display: flex;
@@ -664,10 +679,10 @@ body {
 
   .graph {
     display: flex;
-    /* border: solid blue; */
-    height: 90vh;
+    /* border: solid blue;  */
+    height: 80vh;
     width: 100%;
-    /* margin-top: 300px; */
+     /* margin-top: 100px; */
     flex-direction: column-reverse;
   }
 
@@ -676,26 +691,30 @@ body {
     /* margin-right: 500px; */
     margin-bottom: 0px;
     margin-top: 0px;
-    /* border: solid black; */
+    /* height: 90vh; */
+    /* border: solid black;  */
 
   }
 
   .graph-chart>img {
     width: 100%;
-    /* border: solid red; */
-    /* margin-left: 40px; */
-    /* margin-bottom: 0px; */
+     /* border: solid red;  */
+     margin-top: 0px; 
+     margin-bottom: 0px; 
     /* width: 400px; */
-    /* padding: 0px 0px 0px 0px; */
+    /* gap: 79px; */
+   padding: 90px 0px 0px 0px;
   }
 
   .graph-content {
-    /* border: solid red; */
+   /* border: solid pink;  */
     margin: 0px;
     width: 100%;
-    padding: 0px 0px 0px 20px;
+
+    
+    /* padding: 0px 0px 0px 0px; */
     /* margin-left: 20px; */
-    /* margin-bottom: 0px;   */
+     margin-bottom: 70px;  
     /* margin-top:0px;   */
     /* padding: 0px 0px 0px 0px;  */
 
@@ -719,6 +738,7 @@ body {
 
   .graph-content>img {
     width: 50px;
+    /* border: solid blueviolet; */
   }
 
   .get {
@@ -762,11 +782,16 @@ body {
     margin-right: 20px;
     width: 75%;
     margin-top: 120px;
+    border: blue;
   }
 
   .animation-image>img {
-    width: 50%;
-    margin-right: 50px;
+    width: 100%;
+    /* margin-right: 50px; */
+       /* margin-top: 10px;  */
+       margin: 9940px 0px 0px 0px;
+    
+    /* border: solid red; */
   }
 
   .button {
@@ -807,7 +832,7 @@ body {
     background-color: #128C76;
     padding: 20px 40px 20px 40px;
     /* margin-top: 20px; */
-    margin-bottom: ;
+    /* margin-bottom: ; */
 
 
   }
@@ -819,26 +844,44 @@ body {
 
   #footer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     gap: 50px;
-    margin-left: 0px;
-    margin-right: 100px;
-    width: 100%;
+    /* margin-left: 0px; */
+    justify-content: center;
+     /* margin-right: 100px;  */
+     /* border: solid red; */
+     width: 100%;
   }
 
   .footer-icons {
     margin-top: 30px;
+    /* border: blueviolet; */
+    justify-content: center;
   }
 
   .footer-form {
     width: 100%;
+    
+  }
+
+  .footer-form>text{
+    width: 100%;
+    margin-right: 60px;
   }
 
   .icons {
-    width: 90%;
+    width: 100%;
     margin-right: 5px;
-    gap: 7px;
-    margin-left: 1px;
-    margin-top: 50px;
+    gap: 5px;
+    margin-left: 10px;
+    margin-top: 33px;
+    /* border: blue; */
+    justify-content: space-between;
+  }
+
+  .icons>img{
+    margin: 0px 0px 0px 0px;
+    
+  
   }
 }
